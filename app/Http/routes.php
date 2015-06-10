@@ -15,6 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('test', 'TestController@index');
+
+
 Route::get('laravel-version', function() {
     $laravel = app();
     return "Sua versão do Laravel é ".$laravel::VERSION;
