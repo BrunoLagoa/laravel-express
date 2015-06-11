@@ -11,6 +11,6 @@ class TestController extends Controller
 {
     public  function  index($nome)
     {
-        return "Olá $nome";
+        return view('test.index');
     }
 }
