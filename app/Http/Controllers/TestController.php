@@ -9,8 +9,8 @@ use App\Http\Controllers\Controller;
 
 class TestController extends Controller
 {
-    public  function  index()
+    public  function  index($nome)
     {
-        return "Olá Mundo";
+        return "Olá $nome";
     }
 }
