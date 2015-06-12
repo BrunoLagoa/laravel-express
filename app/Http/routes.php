@@ -18,6 +18,8 @@ Route::get('/', function () {
 Route::get('ola/{nome}', 'TestController@index');
 Route::get('notas', 'TestController@notas');
 
+Route::get('blog', 'TestController@blog');
+
 
 Route::get('laravel-version', function() {
     $laravel = app();
