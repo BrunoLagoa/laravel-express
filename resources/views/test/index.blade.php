@@ -5,6 +5,6 @@
     <title>Olá</title>
 </head>
 <body>
-  <h1>Olá Bruno</h1>
+  <h1>Olá {{ $nome }}</h1>
 </body>
 </html>
