@@ -25,11 +25,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ModelFactory.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database/factories/ModelFactory.php">
+      <file leaf-file-name="PostsTableSeeder.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/seeds/PostsTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.40902257" vertical-offset="0" max-vertical-offset="665">
-              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+              <folding>
+                <element signature="e#7#20#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="442">
+              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -64,6 +76,8 @@
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/posts/index.blade.php" />
         <option value="$PROJECT_DIR$/database/factories/ModelFactory.php" />
+        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/PostsTableSeeder.php" />
       </list>
     </option>
   </component>
@@ -155,24 +169,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="seeds" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel-express" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel-express" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="factories" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -561,6 +557,24 @@
         <state vertical-scroll-proportion="0.40902257" vertical-offset="0" max-vertical-offset="665">
           <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="442">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/PostsTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40902257" vertical-offset="0" max-vertical-offset="665">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="e#7#20#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
