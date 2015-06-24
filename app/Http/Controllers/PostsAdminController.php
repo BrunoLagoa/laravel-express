@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Http\Requests\PostRequest;
 use App\Post;
 use Illuminate\Http\Request;
 
@@ -29,7 +30,7 @@ class PostsAdminController extends Controller
         return view('admin.posts.create');
     }
 
-    public function store(Request $request)
+    public function store(PostRequest $request)
     {
         //dd($requests->all());
         $this->post->create($request->all());
