@@ -10,20 +10,13 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+Route::get('/', 'PostsController@index');
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('admin','PostsAdminController@index');
 
-Route::get('ola/{nome}', 'TestController@index');
-Route::get('notas', 'TestController@notas');
+
 
 Route::get('blogs', 'TestController@blog');
-
-
-Route::get('blog', 'PostsController@index');
-
-
 Route::get('laravel-version', function() {
     $laravel = app();
     return "Sua versão do Laravel é ".$laravel::VERSION;
