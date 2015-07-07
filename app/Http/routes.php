@@ -12,18 +12,13 @@
 */
 Route::get('/', 'PostsController@index');
 
-Route::get('/auth', function(){
-    $user = \App\User::find(1);
-    Auth::login($user);
 
-    if(Auth::check()){
-        return "Autenticado";
-    }
-});
 
-Route::get('/auth/logout', function(){
-   Auth::logout();
-});
+Route::controllers([
+    'auth' => 'Auth\AuthController',
+    'password' => 'Auth\PasswordController',
+]);
+
 
 
 Route::group(['prefix'=>'admin', 'middleware'=>'auth'], function(){
@@ -45,3 +40,28 @@ Route::get('laravel-version', function() {
     $laravel = app();
     return "Sua versão do Laravel é ".$laravel::VERSION;
 });
+
+/*
+
+Route::get('/auth/login', 'Auth\AuthController@getLogin');
+Route::post('/auth/login', 'Auth\AuthController@postLogin');
+Route::get('/auth/logout', 'Auth\AuthController@getLogout');
+
+Route::get('/auth', function(){
+    // $user = \App\User::find(1);
+    // Auth::login($user);
+
+    if(Auth::attempt(['email'=>'bruno@gmail.com','password'=>'123'])){
+        return "Autenticado";
+    }
+
+    return "Erro ao ser Autenticado";
+});
+
+Route::get('/auth/login', 'Auth\AuthController@getLogin');
+
+Route::get('/auth/logout', function(){
+   Auth::logout();
+});
+
+*/
